@@ -33,6 +33,10 @@ public class ContactsPage extends TestBase{
 	PageFactory.initElements(driver, this);
 		
 	}
+	public void contactsDemo()
+	{
+		System.out.println("contacts demo page");
+	}
 	
 	public boolean verifyContactsLabel()
 	{
